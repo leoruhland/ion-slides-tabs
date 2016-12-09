@@ -13,6 +13,7 @@ ion-slide:nth-child(2n) {
 .slidingTabs {
     height: 48px;
     z-index: 10;
+    overflow-x: hidden !important;
 }
 
 .platform-browser .slidingTabs.scroll-view.scroll-x {
